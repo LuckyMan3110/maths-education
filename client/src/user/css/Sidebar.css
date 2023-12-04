@@ -1,0 +1,27 @@
+.custom-sidebar {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .custom-sidebar.sticky-top {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+}
+.custom-sidebar-item {
+  cursor: pointer;
+  transition: 300ms;
+}
+.custom-sidebar a .custom-sidebar-item {
+  margin-bottom: 1rem;
+}
+.custom-sidebar-item:hover,
+.custom-sidebar-item:focus,
+.custom-sidebar-item.active {
+  background: #fff !important;
+  transition: 300ms;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+}
+.custom-sidebar-item.active {
+  font-weight: 700;
+}

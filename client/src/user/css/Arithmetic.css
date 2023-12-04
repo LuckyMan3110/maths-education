@@ -1,0 +1,60 @@
+.__Arithmetic {
+}
+
+.__Arithmetic #cardOutput {
+  width: 50%;
+}
+.__Arithmetic #cardOutput tr,
+.__Arithmetic #cardOutput td,
+.__Arithmetic #cardOutput tbody,
+.__Arithmetic #cardOutput table {
+  padding: 0.5rem;
+  color: black;
+  margin: 0px auto;
+}
+.__Arithmetic #cardOutput .custom-dash {
+  padding: 0 !important;
+  height: 2px !important;
+}
+.__Arithmetic #cardOutput .custom-operation {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.__Arithmetic #cardOutput .form-control {
+  min-width: 4rem !important;
+  text-align: center !important;
+}
+.__Arithmetic #cardOutput .number-size {
+  font-size: 1.5rem;
+}
+.__Arithmetic .custom-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  overflow: auto;
+}
+.__Arithmetic .custom-options .custom-sidebar-item {
+  width: max-content;
+  margin: 5px;
+  background: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .__Arithmetic .custom-options {
+    justify-content: flex-start !important;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+.__Arithmetic input::-webkit-outer-spin-button,
+.__Arithmetic input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.__Arithmetic input[type="number"] {
+  -moz-appearance: textfield;
+}

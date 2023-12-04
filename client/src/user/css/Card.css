@@ -1,0 +1,14 @@
+.custom-card-user * {
+  margin: 0;
+}
+.custom-card-user h4 {
+  font-size: 1em;
+}
+.custom-card-user {
+  margin: 10px 0px;
+  color: var(--PC) !important;
+  transition: 300ms;
+}
+.custom-card-user a {
+  text-decoration: none;
+}

@@ -1,0 +1,92 @@
+.Admin__Arithmetic {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .custom-question {
+    width: 80% !important;
+  }
+}
+.custom-question {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.displayCardDMAS {
+  transition: 500ms;
+}
+.displayCardDMAS:hover,
+.displayCardDMAS:focus {
+  transition: 500ms;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+#cardOutput tr,
+#cardOutput td,
+#cardOutput tbody,
+#cardOutput table {
+  padding: 0.5rem;
+  color: black;
+}
+#fcoutput tr,
+#fcoutput td,
+#fcoutput tbody,
+#fcoutput table {
+  padding: 1rem;
+}
+#fcoutput .custom-dash {
+  padding: 0 !important;
+  height: 3px !important;
+}
+.custom-delete {
+  width: 3rem;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+}
+.custom-delete img {
+  width: inherit;
+  height: inherit;
+}
+#cardOutput .custom-dash {
+  padding: 0 !important;
+  height: 2px !important;
+}
+#cardOutput .custom-operation {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#fcoutput .form-control {
+  min-width: 4rem !important;
+  text-align: center !important;
+}
+#fcoutput .form-select {
+  min-width: 3rem !important;
+  text-align: center !important;
+  text-align-last: center !important;
+  background: #fff !important;
+  padding: 0px !important;
+  font-size: 2rem;
+  font-weight: 900;
+}
+#fcoutput .form-select {
+  border: none;
+  cursor: pointer;
+}
+#fcoutput .form-control:hover,
+#fcoutput .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* Chrome, Safari, Edge, Opera */
+.custom-question input::-webkit-outer-spin-button,
+.custom-question input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.custom-question input[type="number"] {
+  -moz-appearance: textfield;
+}
